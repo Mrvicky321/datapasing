@@ -18,11 +18,11 @@ class _HomeScreenState extends State<HomeScreen> {
         children: [
           TextField(
             controller:nameController ,
-            decoration: InputDecoration(hintText: "Enter Name",border: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(15)))),
+            decoration: InputDecoration(hintText: "Enter Your Name",border: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(15)))),
           ),
           TextField(
             controller:emailController ,
-            decoration: InputDecoration(hintText: "Enter Email",border: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(25)))),
+            decoration: InputDecoration(hintText: "Enter Your Email",border: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(25)))),
           ),
           ElevatedButton(onPressed: () async{
 
