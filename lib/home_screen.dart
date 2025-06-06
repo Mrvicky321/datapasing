@@ -23,6 +23,9 @@ class _HomeScreenState extends State<HomeScreen> {
           TextField(
             controller:emailController ,
             decoration: InputDecoration(hintText: "Enter Your Email",border: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(25)))),
+          ),TextField(
+            controller:emailController ,
+            decoration: InputDecoration(hintText: "Enter Your Age",border: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(25)))),
           ),
           ElevatedButton(onPressed: () async{
 
